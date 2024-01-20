@@ -1,4 +1,4 @@
-# Shopping List
+# ShoppingList Android
 
 ## Overview
 The Shopping List app is a simple and intuitive Android application designed to streamline your shopping experience. With a user-friendly interface, this app allows you to effortlessly create, edit, and manage your shopping list on the go.
