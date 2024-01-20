@@ -25,3 +25,13 @@ The Shopping List app is a simple and intuitive Android application designed to 
 ![Bought Items](https://imgur.com/mB41C79.png)
 ![Display Item](https://i.imgur.com/s0zHKVB.png)
 ![Display Item](https://i.imgur.com/MAmbHqZ.png)
+
+## Key Component & Concepts Practiced
+1. Object-Oriented Programming (OOP)
+2. SQLite Database
+3. RecyclerView
+4. Intents
+5. Adapters
+6. Context and Activity Lifecycle
+7. Material Components
+8. Serializable
