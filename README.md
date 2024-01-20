@@ -14,7 +14,7 @@ The Shopping List app is a simple and intuitive Android application designed to 
 <br>
 
 ## Getting Started
-1. Download [source codes](https://github.com/kazcfz/Shopping-List/releases)
+1. Download [source code](https://github.com/kazcfz/Shopping-List/releases)
 2. Open the project in Android Studio
 3. Build and run the app on your Android device or emulator
 
