@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:layout_marginStart="10sp"
+    android:layout_marginEnd="10sp"
+    android:layout_marginTop="10sp"
+    android:layout_marginBottom="10sp"
+    tools:context=".DisplayItemActivity">
+
+    <TextView
+        android:id="@+id/textView_ShoppingItem"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textColor="@color/darkGreen"
+        android:textStyle="bold"
+        android:layout_marginBottom="5sp"
+        android:text="@string/shopping_item" />
+
+    <TextView
+        android:id="@+id/textView_ShoppingItem_name"
+        android:layout_width="335dp"
+        android:layout_height="wrap_content"
+        android:background="@drawable/border_textview"
+        android:padding="2sp"
+        android:paddingStart="5sp"
+        android:paddingEnd="5sp"
+        android:textColor="@color/darkGreen"
+        android:text="TextView" />
+
+    <TextView
+        android:id="@+id/textView_Detail"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:textColor="@color/darkGreen"
+        android:textStyle="bold"
+        android:layout_marginBottom="5sp"
+        android:text="@string/detail" />
+
+    <TextView
+        android:id="@+id/textView_detailText"
+        android:layout_width="335dp"
+        android:layout_height="75dp"
+        android:background="@drawable/border_textview"
+        android:padding="2sp"
+        android:textColor="@color/darkGreen"
+        android:paddingStart="5sp"
+        android:paddingEnd="5sp"
+        android:scrollbars="vertical"
+        android:text="TextView" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_Quantity"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkGreen"
+            android:textStyle="bold"
+            android:text="Quantity: " />
+
+        <TextView
+            android:id="@+id/textView_quantityText"
+            android:layout_width="40dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_textview"
+            android:padding="2sp"
+            android:textColor="@color/darkGreen"
+            android:paddingStart="5sp"
+            android:paddingEnd="5sp"
+            android:text="1" />
+
+        <TextView
+            android:id="@+id/textView_Size"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="50sp"
+            android:textColor="@color/darkGreen"
+            android:textStyle="bold"
+            android:text="Size: " />
+
+        <TextView
+            android:id="@+id/textView_sizeText"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:background="@drawable/border_textview"
+            android:padding="2sp"
+            android:textColor="@color/darkGreen"
+            android:paddingStart="5sp"
+            android:paddingEnd="5sp"
+            android:text="TextView" />
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20sp"
+        android:orientation="horizontal">
+
+        <TextView
+            android:id="@+id/textView_Urgent"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/darkGreen"
+            android:textStyle="bold"
+            android:text="Urgent: " />
+
+        <ImageView
+            android:id="@+id/imageView_urgentStatus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/unchecked" />
+    </LinearLayout>
+
+</LinearLayout>
